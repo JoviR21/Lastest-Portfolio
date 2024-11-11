@@ -13,6 +13,7 @@
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.22.11",
     "@contentful/rich-text-types": "^16.8.5",
+    "@formspree/react": "^2.5.1",
     "aos": "^2.3.4",
     "cf-content-types-generator": "^2.15.5",
     "class-variance-authority": "^0.7.0",

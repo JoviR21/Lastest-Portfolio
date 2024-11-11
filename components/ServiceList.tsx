@@ -19,7 +19,7 @@ export default async function Service() {
                       <div className="relative flex h-full transform items-end transition-transform group-hover:border-accent group-hover:-translate-y-2">
                         <div className="p-4 !pt-0 sm:p-6 lg:p-8">
                           <h2 className="text-2xl sm:text-3xl font-bold font-secondary text-white items-start">{skill.no}</h2>
-                          <h2 className="text-xl sm:text-2xl font-semibold font-primary text-white mt-8 sm:mt-16 lg:mt-32">{skill.title}</h2>
+                          <h2 className="text-xl sm:text-2xl font-semibold font-primary text-white mt-8 sm:mt-16 lg:mt-32 xl:mt-28 2xl:mt-32">{skill.title}</h2>
                           <p className="text-sm sm:text-base font-regular font-secondary text-white mt-4">
                             {skill.description}
                           </p>
