@@ -5,7 +5,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import Link from "next/link";
 
 export default function Contactform() {
-    const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as "");
+    const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as "Contactform");
     if (state.succeeded) {
         return (
             <div className="hero min-h-screen">
