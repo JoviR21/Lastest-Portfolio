@@ -13,8 +13,8 @@ export default function About() {
                     <h1 className="font-primary font-semibold text-white text-5xl lg:text-7xl">
                         A short introduction about <span className="text-accent">me</span>
                     </h1>
-                    <button className="bg-transparent flex max-w-80 items-center justify-center px-4 py-1 font-medium tracking-wide text-white capitalize transition ease-linear transform rounded-lg border-2 border-accent hover:shadow-[0px_0px_15px_5px_#55c7e3]">
-                        <FaCircle className="w-2 h-2 text-accent" /><span className="mx-2">Interning as a UI/UX Designer</span>
+                    <button className="animate-bounce bg-transparent flex max-w-80 items-center justify-center px-4 py-1 font-medium tracking-wide text-white capitalize transition ease-linear transform rounded-lg border-2 border-accent hover:shadow-[0px_0px_15px_5px_#55c7e3]">
+                        <FaCircle className="animate-pulse w-2 h-2 text-accent" /><span className="mx-2">Interning as a UI/UX Designer</span>
                     </button>
                     {/* Profile */}
                     
