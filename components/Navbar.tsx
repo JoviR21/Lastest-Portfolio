@@ -26,7 +26,7 @@ export default function Navbar() {
                         </div>
                         {/* Sidebar */}
                     </div>
-                    <a className="text-xl font-primary font-medium text-white hidden lg:block">Jovi <span className="text-accent">Rachman</span></a>
+                    <a href="/" className="text-xl font-primary font-medium text-white hidden lg:block">Jovi <span className="text-accent">Rachman</span></a>
                 </div>
                 <div className="navbar-center">
                     <ul className="hidden lg:flex menu menu-horizontal font-secondary text-white px-1 gap-12 font-lato text-base">
