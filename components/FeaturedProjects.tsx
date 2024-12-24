@@ -24,7 +24,8 @@ export default function FeaturedProjects() {
                 });
                 const response = await client.getEntries<TypeProjectSkeleton>({
                     content_type: process.env.NEXT_PUBLIC_CONTENTFUL_CONTENT_TYPE_PROJECT as "project",
-                    limit: 2
+                    limit: 2,
+                    order: ['-sys.createdAt']
                 });
 
                 setCollection(response.items)

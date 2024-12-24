@@ -16,24 +16,18 @@ export default function Footer() {
 
                 <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
                     <Link href="https://www.instagram.com/jovi_2106/">
-                        <a href="https://www.instagram.com/jovi_2106/" rel="noreferrer">
-                            <span className="sr-only">Instagram</span>
-                            <FaInstagram className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
-                        </a>
+                        <span className="sr-only">Instagram</span>
+                        <FaInstagram className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
                     </Link>
 
                     <Link href="https://github.com/JoviR21">
-                        <a href="https://github.com/JoviR21" rel="noreferrer">
-                            <span className="sr-only">GitHub</span>
-                            <FaGithub className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
-                        </a>
+                        <span className="sr-only">GitHub</span>
+                        <FaGithub className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
                     </Link>
 
                     <Link href="https://www.linkedin.com/in/jovi-rachman-04b089245/">
-                        <a href="https://www.linkedin.com/in/jovi-rachman-04b089245/" rel="noreferrer">
-                            <span className="sr-only">LinkedIn</span>
-                            <FaLinkedin className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
-                        </a>
+                        <span className="sr-only">LinkedIn</span>
+                        <FaLinkedin className="bg-background w-7 h-7 p-1 text-white border-2 border-accent rounded-md hover:text-accent transition ease-in" />
                     </Link>
                 </ul>
             </div>
