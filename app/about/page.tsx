@@ -2,7 +2,6 @@ import { FaCircle } from "react-icons/fa";
 import { LuInfo } from "react-icons/lu";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function About() {
 
@@ -112,7 +111,7 @@ export default function About() {
                                             <div className="summary-job mb-3">
                                                 <h5 className="text-xl font-semibold">Summary:</h5>
                                                 <p className="text-lg font-normal py-1">
-                                                Played a key role in overhauling the website's UI/UX, from initial concept to implementation. 
+                                                Played a key role in overhauling the website&apos;s UI/UX, from initial concept to implementation. 
                                                 This involved creating a new design system, producing Lo-Fidelity prototypes, and conducting 
                                                 usability testing with methods like SUS and Card Sorting.
                                                 </p>
