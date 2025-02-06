@@ -62,8 +62,8 @@ export default function Projects() {
                                     loading="lazy"
                                 />
                                 <Link href={`/projects/${item.fields.slug}`} className="text-2xl tracking-wider font-primary text-white font-semibold">{item.fields.projectName as string}</Link>
-                                <p className="mt-2 mb-auto text-lg text-white font-primary">{item.fields.projectDescription as string}</p>
-                                <div className="techstack flex flex-wrap mt-6 gap-2">
+                                <p className="mt-2 mb-auto text-lg text-white font-primary line-clamp-2">{item.fields.projectDescription as string}</p>
+                                <div className="techstack flex flex-wrap mt-6 gap-2 line-clamp-2">
                                     {Array.isArray(item.fields.techStack) &&
                                         item.fields.techStack.map(
                                             (tech: string, index: number) => (

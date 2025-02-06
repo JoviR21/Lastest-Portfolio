@@ -68,10 +68,10 @@ export default function Articles() {
                                 <div className="min-h-64 md:min-h-80 xl:min-h-64 mt-2 flex flex-col">
                                     <span className="text-accent font-primary font-semibold uppercase divider divider-start divider-info">{item.fields.tags as ReactNode}</span>
                                     <div className="flex flex-wrap">
-                                        <Link href={`/articles/${item.fields.slug}`} className="mt-3 text-xl font-secondary font-semibold text-white transition-all ease-in-out hover:underline hover:underline-offset-2 hover:text-accent">
+                                        <Link href={`/articles/${item.fields.slug}`} className="mt-3 text-xl font-secondary font-semibold text-white line-clamp-2 transition-all ease-in-out hover:underline hover:underline-offset-2 hover:text-accent">
                                             {item.fields.title as string}
                                         </Link>
-                                        <p className="mt-2 font-secondary text-gray-400">
+                                        <p className="mt-2 font-secondary line-clamp-2 text-gray-400">
                                             {item.fields.description as string}
                                         </p>
                                     </div>
