@@ -38,13 +38,13 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="CV Terbaru Light.pdf" className="btn btn-ghost font-secondary text-white hidden lg:flex" download>Download CV</a>
+                    <a href="CV Terbaru Light - English.pdf" className="btn btn-ghost font-secondary text-white hidden lg:flex" download>Download CV</a>
                     <div className="dropdown dropdown-end dropdown-hover lg:hidden">
                         <div tabIndex={0} role="button" className="btn btn-ghost font-primary text-white">Jovi<span className="text-accent">Rachman</span></div>
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 font-secondary text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <a href="CV Terbaru Light.pdf" className="mx-auto" download>Download CV</a>
+                            <a href="CV Terbaru Light - English.pdf" className="mx-auto" download>Download CV</a>
                         </ul>
                     </div>
                 </div>
