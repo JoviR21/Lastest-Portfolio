@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Jovi Rachman | Front End Dev",
-  description: "Portfolio about Jovi Rachman - Front End Developer",
+  title: "Jovi Rachman | Front End Dev & UIUX Designer",
+  description: "Portfolio about Jovi Rachman - Front End Developer & UIUX Designer",
 };
 
 export default function RootLayout({
